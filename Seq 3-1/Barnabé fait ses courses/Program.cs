@@ -10,7 +10,7 @@ namespace Barnabé_fait_ses_courses
     {
 
         /// <summary>
-        /// Point d'entrée du programme
+        /// Point d'entrée du programme de test
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
