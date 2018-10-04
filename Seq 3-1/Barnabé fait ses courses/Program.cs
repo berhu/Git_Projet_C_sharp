@@ -8,6 +8,11 @@ namespace Barnabé_fait_ses_courses
 {
     class Program
     {
+
+        /// <summary>
+        /// Point d'entrée du programme
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             double S, depense,reste;
