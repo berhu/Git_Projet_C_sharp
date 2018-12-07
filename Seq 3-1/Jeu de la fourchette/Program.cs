@@ -13,10 +13,10 @@ namespace Jeu_de_la_fourchette
             int random;
             int NbCoups = 0;
             int nb;
-            int valeurmin=0;
-            int valeurmax=100;
+            int valeurmin = 0;
+            int valeurmax = 100;
 
-            
+
             Random rnd = new Random();
             random = rnd.Next(0, 101);
 
@@ -24,7 +24,7 @@ namespace Jeu_de_la_fourchette
             //Console.ReadKey();
             do
             {
-                Console.WriteLine("Devinez le nombre choisi entre : " + valeurmin+ " et " +valeurmax );
+                Console.WriteLine("Devinez le nombre choisi entre : " + valeurmin + " et " + valeurmax);
                 nb = int.Parse(Console.ReadLine());     // nombre choisi par l utilisateur
 
                 if (nb == random)
